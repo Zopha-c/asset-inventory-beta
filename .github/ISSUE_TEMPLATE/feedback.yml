@@ -1,0 +1,79 @@
+{
+  "name": "试用体验 / Beta feedback",
+  "description": "告诉我们哪里有用、哪里麻烦 / Useful findings and friction",
+  "title": "[Feedback] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "反馈实际使用体验即可，无需提供完整项目、私人素材或联系方式。 / Share your experience without uploading a complete project, private assets or personal information."
+      }
+    },
+    {
+      "type": "input",
+      "id": "environment",
+      "attributes": {
+        "label": "项目类型、操作系统和浏览器 / Project type, OS and browser"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "completion",
+      "attributes": {
+        "label": "是否完成自己的项目扫描？ / Did you complete a scan of your own project?",
+        "options": [
+          "完成 / Completed",
+          "中途失败 / Failed during scan",
+          "没有开始 / Did not start"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "useful",
+      "attributes": {
+        "label": "哪一条结果值得处理？ / Which finding was worth acting on?",
+        "description": "没有发现也请说明 / Please also say if none were useful."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "friction",
+      "attributes": {
+        "label": "哪里误报、不清楚或卡住了？ / Incorrect results, confusion or blockers"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "reuse",
+      "attributes": {
+        "label": "你会在什么情况下再次使用？ / When would you use it again?"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "missing",
+      "attributes": {
+        "label": "最近一次整理素材时，最费时间的任务是什么？ / What took the most time in your last asset cleanup?"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

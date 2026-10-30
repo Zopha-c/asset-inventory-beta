@@ -1,0 +1,94 @@
+{
+  "name": "使用故障 / Bug report",
+  "description": "无法扫描、错误结果或导出问题 / Scanning or report problems",
+  "title": "[Bug] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "请勿提交完整项目、私人文件路径、客户素材或联系方式。无需提供任何个人信息。 / Do not share a full project, private paths, client assets or personal information."
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "工具版本 / Tool version",
+        "description": "当前内测包为 0.1.1 / Current beta: 0.1.1"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "browser",
+      "attributes": {
+        "label": "操作系统与浏览器版本 / OS and browser version"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "engine",
+      "attributes": {
+        "label": "项目类型和引擎版本 / Project type and engine version"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "scale",
+      "attributes": {
+        "label": "大约文件数量与大小 / Approximate file count and size"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "复现步骤 / Steps to reproduce"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "预期结果 / Expected result"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "actual",
+      "attributes": {
+        "label": "实际结果及页面提示 / Actual result and on-screen message"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "example",
+      "attributes": {
+        "label": "可选：脱敏截图或最小复现 / Optional redacted screenshot or minimal example"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
