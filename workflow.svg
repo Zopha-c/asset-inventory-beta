@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">Asset Inventory — local game asset review</title><desc id="desc">Workflow illustration, not an application screenshot. Choose a local folder, review duplicates and reference hints, export a report.</desc>
+<rect width="1280" height="440" rx="20" fill="#f5f3e9"/>
+<g font-family="Arial, sans-serif" fill="#173d31">
+<text x="56" y="68" font-size="35" font-weight="700">Asset Inventory</text>
+<text x="56" y="106" font-size="20">Review the assets hiding in your game project.</text>
+<text x="1224" y="64" text-anchor="end" font-size="16">FREE BETA · LOCAL ANALYSIS</text>
+<g fill="#fff" stroke="#d3dfd5" stroke-width="2"><rect x="56" y="148" width="354" height="198" rx="16"/><rect x="463" y="148" width="354" height="198" rx="16"/><rect x="870" y="148" width="354" height="198" rx="16"/></g>
+<g font-size="16" fill="#627267"><text x="80" y="181">01 / CHOOSE</text><text x="487" y="181">02 / REVIEW</text><text x="894" y="181">03 / EXPORT</text></g>
+<g font-size="24" font-weight="700"><text x="80" y="222">A local project folder</text><text x="487" y="222">What needs attention?</text><text x="894" y="222">A report you can compare</text></g>
+<g font-size="18" fill="#405b4e"><text x="80" y="267">Try the included demo first.</text><text x="80" y="298">Godot / Unity reference hints</text><text x="487" y="267">Duplicates · folder sizes</text><text x="487" y="298">Similar images · unused hints</text><text x="894" y="267">CSV / JSON / Markdown</text><text x="894" y="298">Review findings in your engine.</text></g>
+<g font-size="25" fill="#748578"><text x="427" y="255">→</text><text x="834" y="255">→</text></g>
+<text x="56" y="389" font-size="16">Workflow illustration — not an application screenshot. Reference hints require manual review.</text>
+<text x="1224" y="420" text-anchor="end" font-size="14" fill="#627267">中文 / English</text></g></svg>
